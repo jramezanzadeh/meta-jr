@@ -1,0 +1,6 @@
+RDEPENDS:${PN}:remove = "qtdoc"
+RDEPENDS:${PN}:remove:aarch64 = "qtpdf"
+RDEPENDS:${PN}:remove:armv6 = "qtpdf"
+RDEPENDS:${PN}:remove:armv7a = "qtpdf"
+RDEPENDS:${PN}:remove:armv7ve = "qtpdf"
+RDEPENDS:${PN}:remove:x86-64 = "qtpdf"
